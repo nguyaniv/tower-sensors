@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A-Tower Sensor Monitoring</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>A-Tower Sensor Monitoring</h1>
+
+    <div class="report-buttons">
+      <h2>Generate Reports</h2>
+      <button onclick="logAggregatedTemperatures()">
+        Aggregated Temperature Report
+      </button>
+      <button onclick="logMalfunctioningSensors()">
+        Malfunctioning Sensors Report
+      </button>
+    </div>
+
+    <div>
+      <h2>Manage Sensors</h2>
+      <button onclick="logAllSensors()">log on sensor to browser</button>
+      <button class="add" onclick="addSensor()">Add random Sensor</button>
+
+      <div>
+        <button onclick="removeSensor()">Remove Sensor</button>
+        <input class="remove-sensor-input" placeholder="id" />
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

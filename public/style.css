@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+  text-align: center
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.aggregatedTemperatures,
+.malfunctioningSensors {
+  margin-bottom: 20px;
+}
+.report-buttons {
+  text-align: center;
+}
+.report-buttons button {
+  margin: 5px;
+}
+.reportResults {
+  margin-top: 20px;
+}
+
+.add {
+  margin: 10px 0;
+}
+
+.remove-sensor-input{
+width: 140px;
+
+}
